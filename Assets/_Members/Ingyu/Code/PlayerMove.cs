@@ -1,0 +1,29 @@
+using UnityEngine;
+
+[RequireComponent(typeof(Rigidbody2D))]
+public class PlayerMove : MonoBehaviour
+{
+    public float moveSpeed = 5f;
+
+    Rigidbody2D rb;
+    Vector2 input;
+
+    void Awake()
+    {
+        rb = GetComponent<Rigidbody2D>();
+        rb.gravityScale = 0f;
+        rb.freezeRotation = true;
+    }
+
+    void Update()
+    {
+        input.x = Input.GetAxisRaw("Horizontal");
+        input.y = Input.GetAxisRaw("Vertical");
+        input = input.normalized;
+    }
+
+    void FixedUpdate()
+    {
+        rb.linearVelocity = input * moveSpeed;
+    }
+}

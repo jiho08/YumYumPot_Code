@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1917803974091406242
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8822103451834650301}
+  - component: {fileID: 7202053481404064588}
+  m_Layer: 0
+  m_Name: DragonFruit
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8822103451834650301
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1917803974091406242}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7202053481404064588
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1917803974091406242}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbe7f86e77734192b3e2cc531730364d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  <PoolItem>k__BackingField: {fileID: 11400000, guid: ccce43c5c15b8f54f8dd86b002cdc2e4, type: 2}
+  _cropsSO: {fileID: 11400000, guid: 4cff2c7ed1103804f8955d61ee8e3b6e, type: 2}
+  flowerBullet: {fileID: 11400000, guid: a32c7c889f5e7ec4881d395d63f3fa7c, type: 2}
+  isRangeAttack: 0
+  poolManager: {fileID: 11400000, guid: 05d8d22aadd96e84a8fe7d8f241e8814, type: 2}
+  firePoint: {fileID: 8822103451834650301}
+  enemyLayer:
+    serializedVersion: 2
+    m_Bits: 64

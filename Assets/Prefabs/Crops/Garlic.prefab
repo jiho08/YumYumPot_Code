@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &9029717978023018079
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5210728875735765931}
+  - component: {fileID: 8552836107769342063}
+  m_Layer: 0
+  m_Name: Garlic
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5210728875735765931
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9029717978023018079}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8552836107769342063
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9029717978023018079}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0901b507c1a64ae08c5b6fdb775237a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  <PoolItem>k__BackingField: {fileID: 11400000, guid: cc260d052d21f2c4da0ef593b6dfc26e, type: 2}
+  _cropsSO: {fileID: 11400000, guid: d7b6552f0b1fe05438c6a56c339b1f18, type: 2}
+  flowerBullet: {fileID: 11400000, guid: a32c7c889f5e7ec4881d395d63f3fa7c, type: 2}
+  isRangeAttack: 1
+  poolManager: {fileID: 11400000, guid: 05d8d22aadd96e84a8fe7d8f241e8814, type: 2}
+  firePoint: {fileID: 5210728875735765931}
+  enemyLayer:
+    serializedVersion: 2
+    m_Bits: 64
+  garlicBulletItem: {fileID: 11400000, guid: b8c565ae74e9e094aabf91b3d3bdc1f1, type: 2}

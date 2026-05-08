@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &9062220136156433524
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7662508177464367384}
+  - component: {fileID: 1199905851926240975}
+  m_Layer: 0
+  m_Name: FlyTrap
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7662508177464367384
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9062220136156433524}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1199905851926240975
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9062220136156433524}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2aa2e1c38ae3460ba845cacf08cc8331, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  <PoolItem>k__BackingField: {fileID: 11400000, guid: 4da850f2f6a9a0c47acdfb3f44ba91a9, type: 2}
+  _cropsSO: {fileID: 11400000, guid: 428943d2c8eb85749b4c517bc3d4a8fa, type: 2}
+  flowerBullet: {fileID: 11400000, guid: a32c7c889f5e7ec4881d395d63f3fa7c, type: 2}
+  isRangeAttack: 0
+  poolManager: {fileID: 11400000, guid: 05d8d22aadd96e84a8fe7d8f241e8814, type: 2}
+  firePoint: {fileID: 7662508177464367384}
+  enemyLayer:
+    serializedVersion: 2
+    m_Bits: 64
+  biteEffectItem: {fileID: 11400000, guid: f310d6f6a990084458f4cb4c05fa01db, type: 2}

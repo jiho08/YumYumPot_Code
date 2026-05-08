@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c0ef79e9abc4a4f86dd399ff2b9687a, type: 3}
+  m_Name: CommonDragonFruit
+  m_EditorClassIdentifier: 
+  canAttack: 1
+  cropsRarity: 0
+  eatStatType: 0
+  eatStatValue: 3
+  cropsNameList:
+  - Leaf
+  - Flower
+  - DragonFruit
+  cropsVisualNameList:
+  - "\uC790\uB77C\uB098\uB294 \uC911.."
+  - "\uC790\uB77C\uB098\uB294 \uC911.."
+  - "\uC6A9\uACFC"
+  spriteList:
+  - {fileID: 7647240639167449756, guid: 8ad4a6319f0a55a41a489c238901b29f, type: 3}
+  - {fileID: 3373568495408583166, guid: 20a6c5c1e25541443bf2e1e0295ffa2a, type: 3}
+  - {fileID: 8446065022817301202, guid: 9b4911e4036cfe148979e1c28b46b49d, type: 3}
+  growTimeList:
+  - 15
+  - 25
+  - 25
+  damageList:
+  - 0
+  - 10
+  - 0
+  attackSpeedList:
+  - 0
+  - 1
+  - 0
+  attackRangeList:
+  - 0
+  - 12
+  - 0
